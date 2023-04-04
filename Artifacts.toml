@@ -1,113 +1,143 @@
 [[git_crypt]]
-arch = "armv7l"
-git-tree-sha1 = "80af7d85f1546e2cda92f5f91dba7db3f553070a"
-libc = "glibc"
-os = "linux"
-
-    [[git_crypt.download]]
-    sha256 = "14abb97bbee8a5bfe815b181d46f0b1e5bdfd89df9a14b48baa3194bbb7b2f25"
-    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.6.0+0/git_crypt.v0.6.0.arm-linux-gnueabihf.tar.gz"
-[[git_crypt]]
-arch = "x86_64"
-git-tree-sha1 = "fbb55efd618a02140c046fef23d322423ac471ed"
-libc = "glibc"
-os = "linux"
-
-    [[git_crypt.download]]
-    sha256 = "c55086eddd5e65166d853b9a2aa2fb1e22ddbe6c0a7d8e2f3b86c3a0e42628ff"
-    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.6.0+0/git_crypt.v0.6.0.x86_64-linux-gnu.tar.gz"
-[[git_crypt]]
 arch = "aarch64"
-git-tree-sha1 = "7c6d7613a9e39e643d50127e9294fd83373144b4"
-libc = "musl"
-os = "linux"
-
-    [[git_crypt.download]]
-    sha256 = "ce551b6ba191773eac3c8628056bd9a9ef577a228c37ad07546de6cf293c04e4"
-    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.6.0+0/git_crypt.v0.6.0.aarch64-linux-musl.tar.gz"
-[[git_crypt]]
-arch = "powerpc64le"
-git-tree-sha1 = "d5618feed937b11f5318ecd0d45c7bca75160674"
-libc = "glibc"
-os = "linux"
-
-    [[git_crypt.download]]
-    sha256 = "08c0b92600ce5245b2ee0bfe45e66396cc0cc936bf5854a8185198611155b59c"
-    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.6.0+0/git_crypt.v0.6.0.powerpc64le-linux-gnu.tar.gz"
-[[git_crypt]]
-arch = "x86_64"
-git-tree-sha1 = "a248a6c36b8c701c3752354134e822be8c5d5b65"
+git-tree-sha1 = "62aa85e9401baf0800e521d216eaa07dbb7adc0d"
 os = "macos"
 
     [[git_crypt.download]]
-    sha256 = "724837eb27b849a4b645be0d0f38b8491183e1092a47294cf0f0e968caac1fca"
-    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.6.0+0/git_crypt.v0.6.0.x86_64-apple-darwin14.tar.gz"
+    sha256 = "7e577934b12030e898581ed1ad5b513b1e8308013a03060daf871bebc2cf4dd3"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.aarch64-apple-darwin.tar.gz"
 [[git_crypt]]
-arch = "x86_64"
-git-tree-sha1 = "f52f7619906a77d6c58735fa4c9f87dad827443c"
+arch = "aarch64"
+git-tree-sha1 = "4e0366731143938dff47e55b53a271508c0c2f49"
+libc = "glibc"
+os = "linux"
+
+    [[git_crypt.download]]
+    sha256 = "a58b9e9d1dc52220f85061c07bdfcfbc738d1b06f81c2f9d896c739468dfdde7"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.aarch64-linux-gnu.tar.gz"
+[[git_crypt]]
+arch = "aarch64"
+git-tree-sha1 = "bc38677124d4b483e5087e5e1a32936a4ed6e80e"
 libc = "musl"
 os = "linux"
 
     [[git_crypt.download]]
-    sha256 = "8971d0da2ef936e27e6e353eb279d3297e529184f8d170f991806fa345149826"
-    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.6.0+0/git_crypt.v0.6.0.x86_64-linux-musl.tar.gz"
+    sha256 = "447b10a8f7993ef81b4f13fff096b06b470c48daaa55bb93d7cffb8ea8546c28"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.aarch64-linux-musl.tar.gz"
 [[git_crypt]]
-arch = "x86_64"
-git-tree-sha1 = "44b45b1687059a92875675ac480d85729a79ce70"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "9e9bc669d5840ace01d1340a60ac4cd5f9dedf16"
+libc = "glibc"
+os = "linux"
+
+    [[git_crypt.download]]
+    sha256 = "3ebb230834b253f84c1dc2eaf0b249c2f224499e22c47b9f1bd1a22cb1af4480"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.armv6l-linux-gnueabihf.tar.gz"
+[[git_crypt]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "fbe10bfca892ca91a2a1a23e391b98c3dba0897f"
+libc = "musl"
+os = "linux"
+
+    [[git_crypt.download]]
+    sha256 = "86412d139fc2888bc81f78dd315c49742ea97b56d463efecbf75284b15107c84"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.armv6l-linux-musleabihf.tar.gz"
+[[git_crypt]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "f2a5f9234787b0de0bcc1c317ced056c249ce3ec"
+libc = "glibc"
+os = "linux"
+
+    [[git_crypt.download]]
+    sha256 = "6e8591bf47160d645229599b1a91fd896d94d23e60bda39c0d4b0680ffe2064a"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.armv7l-linux-gnueabihf.tar.gz"
+[[git_crypt]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "efa23b09ca6c3c65f81620f4c1edb2e6299710e7"
+libc = "musl"
+os = "linux"
+
+    [[git_crypt.download]]
+    sha256 = "b523683cfc43c2b93c18c19bbf3fb977bb99b4bbc60a5a49205c90d9ed211754"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.armv7l-linux-musleabihf.tar.gz"
+[[git_crypt]]
+arch = "i686"
+git-tree-sha1 = "41ee78a7ed907049e165027a13e57cf6ad12cf37"
+libc = "glibc"
+os = "linux"
+
+    [[git_crypt.download]]
+    sha256 = "0ac572cdab902027ed905194e7a05669fc25220cc4c070b85a87d68f922401f7"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.i686-linux-gnu.tar.gz"
+[[git_crypt]]
+arch = "i686"
+git-tree-sha1 = "7f666fd21bdbb0018734c6ca82d899bd3910567c"
+libc = "musl"
+os = "linux"
+
+    [[git_crypt.download]]
+    sha256 = "3183b62b6541c104d5326c224c7c45067fa2e244ad46e09872588d80d94d28c3"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.i686-linux-musl.tar.gz"
+[[git_crypt]]
+arch = "i686"
+git-tree-sha1 = "baee052901df4b2d6898f5c1b23476200bcd3ace"
 os = "windows"
 
     [[git_crypt.download]]
-    sha256 = "69ca0076a2c825bead222405df9c694c7c493ca01de0a33c6b607217645f8b9c"
-    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.6.0+0/git_crypt.v0.6.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "25784c50b3c10b75b37c6ad589d0d6d4782c81d33b650a1185698ed1ffa28f3f"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.i686-w64-mingw32.tar.gz"
 [[git_crypt]]
-arch = "i686"
-git-tree-sha1 = "dbb3037f87bc09aced5dc52a3bd9ffd3fef0015e"
+arch = "powerpc64le"
+git-tree-sha1 = "f34dee12af085f0c02820540af36b26ee10b41c9"
 libc = "glibc"
 os = "linux"
 
     [[git_crypt.download]]
-    sha256 = "caf04c9b05d961ca77de846c82acdd6923e64f88ebbc384d9b2c88a49aa536c2"
-    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.6.0+0/git_crypt.v0.6.0.i686-linux-gnu.tar.gz"
+    sha256 = "c2e80baaa89137c52b4778d7aedc910cef9778c2012b5f21d228cd8c7358d45b"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.powerpc64le-linux-gnu.tar.gz"
 [[git_crypt]]
-arch = "aarch64"
-git-tree-sha1 = "bf81044ab15564dc3c8b8601856552c5b08f823f"
+arch = "x86_64"
+git-tree-sha1 = "408224ac5c4aff1074572a0f974a55acf693d8fe"
+os = "macos"
+
+    [[git_crypt.download]]
+    sha256 = "8944d57bdec906e4ec15ab5dd26c1e00226c8e372c0f131353b945b54f2083e6"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.x86_64-apple-darwin.tar.gz"
+[[git_crypt]]
+arch = "x86_64"
+git-tree-sha1 = "ec88d95d1dfe3ba968af3a2533ae15b68d8eb040"
 libc = "glibc"
 os = "linux"
 
     [[git_crypt.download]]
-    sha256 = "b973bde198d8c2109a35a2816da1a32029e68d65b2014af582d2c51f6db050be"
-    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.6.0+0/git_crypt.v0.6.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "c37b620d78dee20accceee183d2bb06c25537a316849d590b1e8b4359ba6cd70"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.x86_64-linux-gnu.tar.gz"
 [[git_crypt]]
-arch = "i686"
-git-tree-sha1 = "c6393a09cef6271ea2912ac4936355ae55ab0984"
+arch = "x86_64"
+git-tree-sha1 = "9005b2cb8a1618d4a7cf343e714fe801b38b72d0"
 libc = "musl"
 os = "linux"
 
     [[git_crypt.download]]
-    sha256 = "a3566c5c05777f68862a4d87a3105be37cf01fdf2b571ebc3cd80cb7962eba57"
-    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.6.0+0/git_crypt.v0.6.0.i686-linux-musl.tar.gz"
+    sha256 = "570536fb306535f6b4db3fbf088425a6a6922a05cc2b9536962bc86ad3bc8753"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.x86_64-linux-musl.tar.gz"
 [[git_crypt]]
 arch = "x86_64"
-git-tree-sha1 = "911b3a4c546662c22915869222293aebc134abd7"
+git-tree-sha1 = "0a1e54152e0a7e6597a3a481636658ee03bc6c80"
 os = "freebsd"
 
     [[git_crypt.download]]
-    sha256 = "b3fade82b362d0875eb6e65731637d31d3f18e7c76dc38148853b65c8b84f997"
-    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.6.0+0/git_crypt.v0.6.0.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "5b290f9b203786366626935a043002696699fc667e3896574e41ebfb45855e50"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.x86_64-unknown-freebsd.tar.gz"
 [[git_crypt]]
-arch = "i686"
-git-tree-sha1 = "a17f6680c59735dce341d9921eb8e3eaeffde93f"
+arch = "x86_64"
+git-tree-sha1 = "4b782826cd527762eef36d620365528f93d94036"
 os = "windows"
 
     [[git_crypt.download]]
-    sha256 = "4b23ee9e158992123df3f4e015aa94cfbdd08d45ef71784f76a29ba3eb221a9e"
-    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.6.0+0/git_crypt.v0.6.0.i686-w64-mingw32.tar.gz"
-[[git_crypt]]
-arch = "armv7l"
-git-tree-sha1 = "3b84e1e4c5b7246633dd2850f279b922a248d7c0"
-libc = "musl"
-os = "linux"
-
-    [[git_crypt.download]]
-    sha256 = "7625432be5ae543a14cc598a1d2a3774ad8d77a2f01b04fe6b7435c4b35fb9ee"
-    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.6.0+0/git_crypt.v0.6.0.arm-linux-musleabihf.tar.gz"
+    sha256 = "7ef7019b22fabc5c430838526f93578dc0728111d5274d91469890ed26b585f9"
+    url = "https://github.com/JuliaBinaryWrappers/git_crypt_jll.jl/releases/download/git_crypt-v0.7.0+0/git_crypt.v0.7.0.x86_64-w64-mingw32.tar.gz"
